@@ -1,0 +1,32 @@
+:root { --ink: #14213d; --teal: #0f766e; --line: #c9d1da; --bg: #eef1f4; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+.header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem; padding: 1rem 1.5rem; background: var(--ink); color: #fff; }
+.header h1 { margin: 0; font-size: 1.3rem; }
+.nav { display: flex; gap: 1rem; }
+.nav a { color: #fff; }
+.header .btn { display: none; }
+.container { max-width: 960px; margin: 0 auto; padding: 1.5rem; display: grid; gap: 2rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.card { background: #fff; border-left: 5px solid var(--teal); padding: 1rem; display: flex; flex-direction: column; gap: .5rem; }
+.card h3 { margin: 0; }
+.card p { margin: 0; }
+.tags { display: flex; flex-wrap: wrap; gap: .4rem; }
+.tag { background: #e2e8f0; padding: .1rem .5rem; font-size: .8rem; border-radius: 3px; }
+.actions { display: flex; gap: .5rem; margin-top: auto; }
+.btn { font: inherit; padding: .45rem .9rem; border: 1px solid var(--teal); cursor: pointer; }
+.btn-primary { background: var(--teal); color: #fff; }
+.btn-ghost { background: transparent; color: var(--teal); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.form { background: #fff; padding: 1.2rem; display: grid; gap: .6rem; max-width: 30rem; }
+.form h2 { margin: 0; }
+.form label { display: grid; gap: .25rem; font-weight: 500; }
+input, textarea { font: inherit; padding: .5rem; border: 1px solid var(--line); }
+.error { color: #b91c1c; margin: 0; }
+.footer { text-align: center; padding: 1.5rem; color: #4a5568; }
+@media (max-width: 600px) {
+  .header .btn { display: inline-block; color: #fff; border-color: #fff; }
+  .nav { display: none; width: 100%; flex-direction: column; }
+  .nav.open { display: flex; }
+}

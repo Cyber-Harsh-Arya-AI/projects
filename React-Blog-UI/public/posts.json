@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "description": "Learn how to build interactive user interfaces using React components and hooks.",
+    "category": "Web Development",
+    "author": "Aarav Sharma",
+    "date": "2026-10-10",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "title": "Python for Beginners",
+    "description": "Explore Python basics, variables, loops and functions with simple examples.",
+    "category": "Programming",
+    "author": "Priya Verma",
+    "date": "2026-10-12",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 3,
+    "title": "Understanding Cybersecurity",
+    "description": "Discover common cyber threats and practical ways to protect your digital accounts.",
+    "category": "Cybersecurity",
+    "author": "Rohan Singh",
+    "date": "2026-10-14",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 4,
+    "title": "CSS Tips for Better Websites",
+    "description": "Make your websites responsive with Flexbox, Grid and modern CSS techniques.",
+    "category": "Web Development",
+    "author": "Ananya Gupta",
+    "date": "2026-10-15",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 5,
+    "title": "Introduction to APIs",
+    "description": "Understand how applications communicate using HTTP requests and REST APIs.",
+    "category": "Programming",
+    "author": "Karan Mehta",
+    "date": "2026-10-16",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 6,
+    "title": "Staying Safe Online",
+    "description": "Learn about strong passwords, phishing attacks and two-factor authentication.",
+    "category": "Cybersecurity",
+    "author": "Meera Joshi",
+    "date": "2026-10-18",
+    "readTime": "4 min read"
+  }
+]
